@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wedding rizky&mahalini</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&amp;display=swap"/>
+    </noscript>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap"/>
+    </noscript>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/font-awesome/css/all.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/ekko-lightbox.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <style>
+      button{
+        border: none;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        outline-style: none;
+        
+      }
+      #play{
+        background-image: url('img/mute.png');
+      
+      }
+    </style>
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body id="top">
+    <header></header>
+    <!-- Navbar -->
+    <div class="ww-nav-bar sticky-top bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container"><a href="#"></a>
+          <h1 class="h2"><a class="pl-4 navbar-brand" href="#">Rizky Febian & Mahalini</a></h1>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ww-navbarNav" aria-controls="ww-navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse text-uppercase" id="ww-navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#couple">Pengantin</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#events">Acara</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#gallery">Galeri</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#rsvp">Kehadiran</a></li>
+              <li class="nav-item">
+                <button id="play"></button></li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    
+    <!-- javascript -->
+    <script>
+      var musik = new Audio();
+      musik.src="music.mp3";
+      musik.loop=true;
+      musik.play();
+
+      function mulaiAudio() {
+        var play=document.getElementById("play");
+
+        play.addEventListener('click', fplay);
+
+        function fplay() {
+          if(musik.paused){
+            musik.play();
+            play.style.background="url(img/mute.png)";
+          }else{
+            musik.pause();
+            play.style.background="url(img/play.png)"; 
+          }
+          
+        }
+      }
+      window.addEventListener('load', mulaiAudio);
+    </script>
+
+    <!-- Ucapan 1 -->
+    <div class="ww-section" id="ucapan" style="        background-image: url('img/bunga\ 3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-top: 1em;">
+      <div class="ww-ucapan">
+      <div class="container">
+        <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">The Wedding</h2>
+        <div class="row">
+          <div class="col-md-6" style="margin-left: auto; margin-right: auto;">
+            <div class="mt-3">
+              <h4 class="pt-3 text-center text-muted"data-aos="zoom-in-down" data-aos-duration="1000">
+                Atas Rahmat yang telah diberikan oleh Allah SWT Kami bermaksud untuk mengundang Anda untuk bergabung dalam momen istimewa
+           kami saat kami menyatukan dua jiwa dalam ikatan suci pernikahan.keberadaan Anda akan
+           sangat kami hargai.Terima kasih atas doa dan dukungan Anda. <br><br><br><br>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- mempelai -->
+    <div class="ww-section" id="couple"
+        style="        
+        background-image: url('img/background.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        justify-content: center;">
+      <div class="container">
+        <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Mempelai Pria & Wanita</h2>
+        <div class="row text-center">
+          <div class="col-md-6">
+            <div class="mt-3"><img class="img-fluid" src="img/rizky febian.png" alt="Groom" data-aos="flip-left" data-aos-duration="1000" style="width: 50%;"/>
+              <h5 class="pt-3 text-center text-muted">
+                Putra Pertama dari Pasangan <br>
+                Entis sutisna & almarhumah Lina Jubaedah <br>
+                Bekasi
+              </h5>
+              <h3 class="h2 mt-3 ww-title">Rizky Febian</h3>
+              <div class="ww-social-links"><a class="btn btn-link" href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="mt-3"><img class="img-fluid" src="img/mahalini raharja.png" alt="Bride" data-aos="flip-right" data-aos-duration="1000" style="width: 50%;"/>
+              <h5 class="pt-3 text-center text-muted">              
+                Putri Ketiga dari Pasangan <br>
+                I Gede Suraharja & almarhumah Ni Nyoman Serini <br>
+                kabupaten Badung, Bali</h5>
+              <h3 class="h2 mt-3 ww-title">Mahalini Raharja</h3>
+              <div class="ww-social-links"><a class="btn btn-link" href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a><a class="btn btn-link" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Acara -->
+    <div class="ww-section bg-light" id="events">
+      <div class="container ww-wedding-event">
+        <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Acara Pernikahan</h2>
+        <div class="row">
+          <div class="col-md-7 col-sm-12">
+            <div class="my-3">
+              <div class="h4">Akad Nikah</div>
+              <ul>
+                <li><i class="text-muted fas fa-map-marker-alt"></i><span class="pl-2 text-muted">Church End, Hendon, London, UK</span></li>
+                <li class="pt-2"><i class="text-muted far fa-calendar-alt"></i><span class="pl-2 text-muted">20 Dec 2018, 9AM - 6PM</span></li>
+              </ul>
+              <p>
+                Rabu 08 Mei 2024  <br>
+                08:00 - 09:00 WIB <br>
+                Hotel Raffles, Jakarta Selatan <br>
+                Ciputra World, Jl. Prof. DR. Satrio No.Kavling 3, RT.18/RW.5, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, 
+                Daerah Khusus Ibukota Jakarta 12940
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <div class="my-3"><img class="img-fluid" src="img/akad nikah.jpg" alt="Wedding Party" data-aos="fade-down-right" data-aos-duration="1000"/></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-7 col-sm-12">
+            <div class="my-3">
+              <div class="h4">Resepsi</div>
+              <ul>
+                <li><i class="text-muted fas fa-map-marker-alt "></i><span class="pl-2 text-muted">City Place, Hendon, London, UK</span></li>
+                <li class="pt-2"><i class="text-muted far fa-calendar-alt "></i><span class="pl-2 text-muted">22 Dec 2018, 11AM - 6PM</span></li>
+              </ul>
+              <p>
+                Jum'at 10 Mei 2024 <br>
+                09:00 - Selesai WIB <br>
+                Hotel Raffles, Jakarta Selatan <br>
+                Ciputra World, Jl. Prof. DR. Satrio No.Kavling 3, RT.18/RW.5, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, 
+                Daerah Khusus Ibukota Jakarta 12940
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <div class="my-3"><img class="img-fluid" src="img/resepsi.jpg" alt="Reception" data-aos="fade-up-right" data-aos-duration="1000"/></div>
+          </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-7 col-sm-12">
+              <div class="my-3">
+                <div class="h4">Unduh Mantu</div>
+                <ul>
+                  <li><i class="text-muted fas fa-map-marker-alt "></i><span class="pl-2 text-muted">City Place, Hendon, London, UK</span></li>
+                  <li class="pt-2"><i class="text-muted far fa-calendar-alt "></i><span class="pl-2 text-muted">22 Dec 2018, 11AM - 6PM</span></li>
+                </ul>
+                <p>
+                  Sabtu 11 Mei 2024 <br>
+                09:00 - Selesai WIB <br>
+                Rumah Mempelai Wanita <br>
+                kawasan Badung, Bali
+                </p>
+              </div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+              <div class="my-3"><img class="img-fluid" src="img/unduh mantu.jpeg" alt="Reception" data-aos="fade-up-right" data-aos-duration="1000"/></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dokumentasi -->
+    <div class="ww-section" id="gallery">
+      <div class="ww-photo-gallery" >
+        <div class="container">
+          <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Galeri</h2>
+          <div class="col-md-12 text-center ww-category-filter mb-4"><a class="btn btn-outline-primary ww-filter-button" href="#" data-filter="all">Semua</a><a class="btn btn-outline-primary ww-filter-button" href="#" data-filter="vacation">Liburan</a><a class="btn btn-outline-primary ww-filter-button" href="#" data-filter="party">Pesta</a><a class="btn btn-outline-primary ww-filter-button" href="#" data-filter="ceremony">Perayaan</a><a class="btn btn-outline-primary ww-filter-button" href="#" data-filter="wedding">Pernikahan</a></div>
+          <div class="ww-gallery" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
+            <div class="card-columns">
+              <div class="card" data-groups="[&quot;vacation&quot;,&quot;ceremony&quot;]"><a href="img/akad nikah.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="img/akad nikah.jpg" alt="Gallery Pic 1"/></a></div>
+              <div class="card" data-groups="[&quot;party&quot;,&quot;wedding&quot;]"><a href="img/tamu undangan.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="img/tamu undangan.jpg" alt="Gallery Pic 2"/></a></div>
+              <div class="card" data-groups="[&quot;vacation&quot;]"><a href="img/resepsi.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="img/unduh mantu.jpeg" alt="Gallery Pic 3"/></a></div>
+              <div class="card" data-groups="[&quot;party&quot;,&quot;vacation&quot;]"><a href="img/unduh mantu.jpeg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="img/resepsi.jpg" alt="Gallery Pic 4"/></a></div>
+              <div class="card" data-groups="[&quot;vacation&quot;]"><a href="img/foto 1.jpeg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="img/foto 1.jpeg" alt="Gallery Pic 5"/></a></div>
+              <div class="card" data-groups="[&quot;wedding&quot;,&quot;ceremony&quot;,&quot;party&quot;]"><a href="img/mahalini(1).png" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="img/mahalini(1).png" alt="Gallery Pic 6"/></a></div>
+              <div class="card" data-groups="[&quot;vacation&quot;]"><a href="img/pernikahan.jpg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="img/pernikahan.jpg" alt="Gallery Pic 7"/></a></div>
+              <div class="card" data-groups="[&quot;wedding&quot;,&quot;party&quot;]"><a href="img/bridesmaid.jpeg" data-toggle="lightbox" data-gallery="ww-gallery"><img class="img-fluid" src="img/bridesmaid.jpeg" alt="Gallery Pic 8"/></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video -->
+    <div class="ww-section bg-light" id="video">
+      <div class="ww-video-gallery">
+        <div class="container">
+          <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Video</h2>
+          <div class="ww-video" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="0">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/n-H6jjG0-Rk?si=ECJYzTY-iWj5Ntyts"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Ucapan 2 -->
+    <div class="ww-section" id="ucapan">
+      <div class="containe">
+        <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">See You</h2>
+        <div class="row">
+          <div class="col-md-6" style="margin-left: auto; margin-right: auto;">
+            <div class="mt-3">
+              <h4 class="pt-3 text-center text-muted"data-aos="zoom-in-down" data-aos-duration="1000">
+                Pernikahan itu sekali seumur hidup. <br>
+                Pasangan yang kamu pilih adalah pasanganmu sampai mati. 
+                Salah atau benar, itulah pasanganmu<br> <br>
+                Anggun Prameswari
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ww-section ww-rsvp-detail text-white" id="rsvp">
+      <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="col text-center">
+          <h2 class="h1 ww-title pb-3" data-aos="zoom-in-down" data-aos-duration="1000">Kehadiran</h2>
+        </div>
+        <div class="row ww-rsvp-form">
+          <div class="col-md-10">
+            <div class="card-body">
+              <form action="https://formspree.io/example@email.com" method="POST">
+                <div class="row">
+                  <div class="col md-6 pb-3">
+                    <div class="form-group">
+                      <label for="name-input">Nama*</label>
+                      <input class="form-control" id="name-input" type="text" name="name" required="required"/>
+                    </div>
+                  </div>
+                  <div class="col-md-6 pb-3">
+                    <div class="form-group">
+                      <label for="email-input">Email*</label>
+                      <input class="form-control" id="email-input" type="email" name="_replyto" required="required"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col md-6 pb-3">
+                    <div class="form-group">
+                      <label for="guest-input">Kehadiran</label>
+                      <select class="form-control" id="guest-input" name="guest">
+                        <option value="1">Hadir</option>
+                        <option value="2">Tidak Hadir</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group">
+                      <label for="message-input">Pesan</label>
+                      <textarea class="form-control" id="message-input" name="message" rows="4"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col text-center">
+                    <button class="btn btn-primary btn-submit" type="submit">Kirim</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <footer></footer>
+    <script src="scripts/jquery.min.js?ver=1.1.0"></script>
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.1.0"></script>
+    <script src="scripts/aos.js?ver=1.1.0"></script>
+    <script src="scripts/ekko-lightbox.min.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+  </body>
+</html>
